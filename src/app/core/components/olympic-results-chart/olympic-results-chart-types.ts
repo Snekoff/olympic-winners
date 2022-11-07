@@ -11,7 +11,7 @@ export interface OlympicResultsChartTypes {
   year: number;
 }
 
-export interface chartSeries {
+export interface ChartSeriesType {
   name: string;
   type: string;
   data: Array<number>;
